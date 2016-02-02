@@ -7,24 +7,24 @@
   <h3>42 Coffee Cups Test Assigment</h3>
   <table>
     <tr>
-      <td>Oleksandr</td>
+      <td>{{ my_data.name }}</td>
       <td>Contacts</td>
     </tr>
     <tr>
-      <td>Shchebyna</td>
-      <td>Email: sanya071186@gmail.com</td>
+      <td>{{ my_data.second_name }}</td>
+      <td>{{ my_data.email }}</td>
     </tr>
     <tr>
       <td>07/11/1986</td>
-      <td>Jabber: pock@jabber.ua<br>Skype: sanya071186</td>
+      <td>{{ my_data.jabber }}<br>{{ me_data.skype }}</td>
     </tr>
     <tr>
       <td>Bio:</td>
       <td>Other Contacts</td>
     </tr>
     <tr>
-      <td>I`m 29 year old.<br>I`m married and have a dughter</td>
-      <td><a href="https://www.facebook.com/profile.php?id=100003368151652">Facebook</a><br><a href="https://vk.com/id69128840">Vk</td>
+      <td>{{ my_data.bio }}</td>
+      <td><a href={{ my_data.facebook }}>Facebook</a><br><a href={{ my_data.vk }}>Vk</td>
     </tr>
 
   </table>
